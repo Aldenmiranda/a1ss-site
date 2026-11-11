@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A1SS – A la Vanguardia en Seguridad</title>
+<meta name="description" content="A1 Security Solutions: seguridad integral, protección de carga, monitoreo de rutas, protección VIP, videovigilancia y evaluaciones poligráficas en San Pedro Sula, Honduras.">
+<meta name="theme-color" content="#10253A">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/icon-192.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:title" content="A1SS – A la Vanguardia en Seguridad">
+<meta property="og:description" content="Soluciones integrales de seguridad de alta tecnología.">
+<meta property="og:image" content="img/instalaciones.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..900&family=Public+Sans:wght@400;500;600&display=swap">
+<script>try{var t=localStorage.getItem("a1ss-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<style>
+:root{--bg:#F3F5F7;--surface:#fff;--ink:#10253A;--muted:#51647A;--line:#D5DCE3;--navy:#10253A;--on-navy:#F3F5F7;--amber:#FECC57;--on-amber:#10253A;--link:#0B5CAD;color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B1722;--surface:#13263A;--ink:#EAF0F5;--muted:#9FB2C5;--line:#264058;--navy:#071019;--on-navy:#EAF0F5;--link:#7DB8F2;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0B1722;--surface:#13263A;--ink:#EAF0F5;--muted:#9FB2C5;--line:#264058;--navy:#071019;--on-navy:#EAF0F5;--link:#7DB8F2;color-scheme:dark}
+body,header,.pillars .grid,.mv article,.svc,.services,form,.done,input,select,textarea{transition:background-color .35s,color .35s,border-color .35s}
+.theme{width:42px;height:42px;border-radius:50%;border:1.5px solid rgba(243,245,247,.35);background:transparent;color:var(--on-navy);cursor:pointer;display:grid;place-items:center;padding:0;transition:background .2s,color .2s,transform .3s}
+.theme:hover{background:var(--amber);color:var(--on-amber);border-color:var(--amber);transform:rotate(18deg)}
+.theme svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.theme .sun{display:none}
+:root[data-theme="dark"] .theme .sun{display:block}:root[data-theme="dark"] .theme .moon{display:none}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .theme .sun{display:block}:root:not([data-theme="light"]) .theme .moon{display:none}}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:68px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Public Sans",system-ui,sans-serif}
+h1,h2,h3,h4{font-family:"Archivo",system-ui,sans-serif;font-stretch:112%;line-height:1.05;margin:0;letter-spacing:-.01em}
+a{color:inherit}img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+section{padding:96px 0}
+h2{font-size:clamp(32px,4.5vw,52px);font-weight:900}
+
+header{position:sticky;top:0;z-index:50;background:var(--navy);color:var(--on-navy)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;height:64px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font:800 18px "Archivo",sans-serif;font-stretch:112%;line-height:1.15}
+.brand img{height:44px;width:auto}
+.brand small{display:block;font:500 12px "Public Sans",sans-serif;opacity:.75}
+nav{display:flex;align-items:center;gap:28px}
+nav a{text-decoration:none;font-weight:500;font-size:15px;opacity:.85}
+nav a:hover{opacity:1;color:var(--amber)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--amber);color:var(--on-amber);font:800 16px "Archivo",sans-serif;font-stretch:108%;padding:15px 28px;border:0;border-radius:6px;text-decoration:none;cursor:pointer;transition:transform .2s,filter .2s}
+.btn:hover{filter:brightness(1.06);transform:translateY(-2px)}
+.btn:disabled{opacity:.6;cursor:wait;transform:none}
+.btn.sm{padding:10px 18px;font-size:14px}
+@media(max-width:760px){nav a:not(.btn){display:none}}
+
+.hero{background:var(--navy);color:var(--on-navy);padding:44px 0 100px;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.tag{display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;color:var(--amber);margin-bottom:16px}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--amber);animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(254,204,87,.6)}100%{box-shadow:0 0 0 14px rgba(254,204,87,0)}}
+.hero h1{font-size:clamp(40px,6vw,72px);font-weight:900;text-transform:uppercase}
+.hero p{max-width:52ch;font-size:19px;opacity:.88;margin:22px 0 30px}
+.radar{width:100%;max-width:440px;justify-self:center}
+.sweep{transform-origin:200px 200px;animation:spin 7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:860px){.hero .wrap{grid-template-columns:1fr}.radar{max-width:280px;order:-1}}
+
+.pillars{margin-top:-52px;padding:0;position:relative;z-index:2}
+.pillars .grid{display:grid;grid-template-columns:repeat(4,1fr);background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.pillar{padding:28px 26px;border-right:1px solid var(--line)}
+.pillar:last-child{border-right:0}
+.pillar svg{width:30px;height:30px;stroke:var(--ink);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;margin-bottom:14px}
+.pillar h3{font-size:19px;margin-bottom:6px}
+.pillar p{margin:0;font-size:15px;color:var(--muted);line-height:1.5}
+@media(max-width:900px){.pillars .grid{grid-template-columns:1fr 1fr}.pillar:nth-child(2){border-right:0}.pillar:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+@media(max-width:520px){.pillars .grid{grid-template-columns:1fr}.pillar{border-right:0;border-bottom:1px solid var(--line)}.pillar:last-child{border-bottom:0}}
+
+/* Carrusel */
+.gallery{padding:88px 0 24px}
+.car{position:relative;border-radius:14px;overflow:hidden;background:var(--navy);aspect-ratio:16/8}
+.track{display:flex;height:100%;transition:transform .7s cubic-bezier(.65,0,.25,1)}
+.slide{flex:0 0 100%;position:relative;height:100%}
+.slide img{width:100%;height:100%;object-fit:cover}
+.slide::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(7,16,25,.85),rgba(7,16,25,0) 55%)}
+.cap{position:absolute;left:0;bottom:0;z-index:2;padding:32px 36px 44px;color:#fff;max-width:640px}
+.cap h3{font-size:clamp(22px,3vw,34px);font-weight:800;margin-bottom:8px}
+.cap p{margin:0;opacity:.9}
+.arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:48px;height:48px;border-radius:50%;border:0;background:rgba(7,16,25,.6);color:#fff;cursor:pointer;display:grid;place-items:center;backdrop-filter:blur(4px)}
+.arrow:hover{background:var(--amber);color:var(--on-amber)}
+.arrow svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.prev{left:16px}.next{right:16px}
+.dots{position:absolute;right:28px;bottom:24px;z-index:3;display:flex;gap:8px}
+.dots button{width:12px;height:12px;border-radius:6px;border:0;background:rgba(255,255,255,.5);cursor:pointer;padding:0;transition:width .3s,background .3s}
+.dots button[aria-current="true"]{width:34px;background:var(--amber)}
+@media(max-width:700px){.car{aspect-ratio:4/5}.cap{padding:20px 20px 52px}.dots{right:auto;left:20px;bottom:20px}.arrow{width:40px;height:40px;top:36%}}
+
+.about .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px}
+.quote{margin:28px 0 0;padding-left:20px;border-left:5px solid var(--amber);font-size:21px;line-height:1.4;font-weight:500}
+.quote cite{display:block;margin-top:10px;font-size:15px;color:var(--muted);font-style:normal}
+.mv{display:grid;gap:20px}
+.mv article{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:32px}
+.mv h3{font-size:26px;margin-bottom:12px}
+.mv p{margin:0;color:var(--muted)}
+.mv article:first-child{background:var(--navy);color:var(--on-navy);border-color:var(--navy)}
+.mv article:first-child p{color:var(--on-navy);opacity:.88}
+.mv article:first-child h3{color:var(--amber)}
+@media(max-width:860px){.about .wrap{grid-template-columns:1fr;gap:36px}}
+
+.services{background:var(--surface);border-block:1px solid var(--line)}
+.head{max-width:640px;margin-bottom:48px}
+.head p{color:var(--muted);margin:14px 0 0;font-size:19px}
+.sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.svc{background:var(--bg);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;position:relative;transition:transform .35s,box-shadow .35s,border-color .35s}
+.svc::after{content:"";position:absolute;left:0;bottom:0;height:4px;width:0;background:var(--amber);transition:width .45s}
+.svc:hover{transform:translateY(-8px);box-shadow:0 18px 36px rgba(7,16,25,.22);border-color:var(--amber)}
+.svc:hover::after{width:100%}
+.ph{position:relative;aspect-ratio:3/2;background:var(--navy)}
+.clip{position:absolute;inset:0;overflow:hidden}
+.clip img{width:100%;height:100%;object-fit:cover;transition:transform .8s}
+.svc:hover .clip img{transform:scale(1.09)}
+.ico{position:absolute;right:16px;bottom:-24px;width:52px;height:52px;border-radius:12px;background:var(--amber);display:grid;place-items:center;z-index:2;transition:transform .4s}
+.svc:hover .ico{transform:rotate(-8deg) scale(1.08)}
+.ico svg{width:26px;height:26px;stroke:var(--on-amber);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.body{padding:34px 26px 32px}
+.svc h3{font-size:21px;margin-bottom:10px}
+.svc p{margin:0;color:var(--muted);font-size:16px}
+.rv{opacity:0;transform:translateY(36px);transition:opacity .7s,transform .7s,box-shadow .35s,border-color .35s}
+.rv.in{opacity:1;transform:none}
+.svc.rv.in:hover{transform:translateY(-8px)}
+@media(max-width:960px){.sgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.sgrid{grid-template-columns:1fr}}
+
+.quote-sec .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
+.contact-list{list-style:none;padding:0;margin:32px 0 0;display:grid;gap:18px}
+.contact-list li{display:flex;gap:14px;align-items:flex-start;color:var(--muted)}
+.contact-list svg{flex:none;width:22px;height:22px;stroke:var(--ink);fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;margin-top:3px}
+.contact-list b{display:block;color:var(--ink);font-weight:600}
+.contact-list a{color:var(--link)}
+form,.done{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:36px;display:grid;gap:20px}
+label{display:grid;gap:7px;font-weight:600;font-size:15px}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:6px;padding:13px 14px;width:100%}
+textarea{min-height:120px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--amber);box-shadow:0 0 0 3px rgba(254,204,87,.45)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+.err{margin:0;color:#C0392B;font-weight:600;font-size:15px}
+@media(max-width:560px){.row{grid-template-columns:1fr}form,.done{padding:24px}}
+[hidden]{display:none!important}
+.done{justify-items:start}
+.check{width:56px;height:56px;border-radius:50%;background:var(--amber);display:grid;place-items:center}
+.check svg{width:28px;height:28px;stroke:var(--on-amber);fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.done h3{font-size:26px;text-transform:uppercase}
+.done p{margin:0;color:var(--muted)}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+@media(max-width:860px){.quote-sec .wrap{grid-template-columns:1fr;gap:36px}}
+
+footer{background:var(--navy);color:var(--on-navy);padding:56px 0 40px}
+.fgrid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:40px}
+footer h4{font-size:16px;margin-bottom:14px;color:var(--amber)}
+footer p,footer a:not(.brand){font-size:15px;opacity:.88;margin:0 0 6px;display:block;text-decoration:none}
+footer a:not(.brand):hover{color:var(--amber);opacity:1}
+.social{display:flex;gap:10px;margin-top:20px}
+.social a{width:42px;height:42px;border:1.5px solid rgba(243,245,247,.35);border-radius:50%;display:grid!important;place-items:center;margin:0!important}
+.social svg{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.copy{border-top:1px solid rgba(243,245,247,.18);margin-top:40px;padding-top:24px;font-size:14px;opacity:.7}
+@media(max-width:760px){.fgrid{grid-template-columns:1fr}}
+
+.wa{position:fixed;right:20px;bottom:20px;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;z-index:40;box-shadow:0 6px 18px rgba(0,0,0,.3);transition:transform .2s}
+.wa:hover{transform:scale(1.08)}
+.wa svg{width:30px;height:30px;fill:#fff}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#inicio" aria-label="A1SS Security Solutions, inicio"><img src="img/logo.png" alt="" width="39" height="44"><span>A1SS<small>Security Solutions</small></span></a>
+    <nav aria-label="Principal">
+      <a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a>
+      <a class="btn sm" href="#cotizacion">Contacto</a>
+      <button class="theme" id="theme" type="button" aria-label="Cambiar entre modo claro y oscuro"><svg class="moon" viewBox="0 0 24 24"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4 8.500 8.500 0 1 0 20 14.500z"/></svg><svg class="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.900 4.900l1.400 1.400M17.700 17.700l1.400 1.400M2 12h2M20 12h2M4.900 19.100l1.400-1.400M17.700 6.300l1.400-1.400"/></svg></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="wrap">
+    <div>
+      <div class="tag"><span class="dot"></span>Tecnología y protección activada</div>
+      <h1>A la vanguardia en seguridad</h1>
+      <p>Protegemos lo que más valoras mediante soluciones integrales de alta tecnología, personal altamente capacitado y sistemas de monitoreo avanzados.</p>
+      <a class="btn" href="#cotizacion">Solicitar cotización</a>
+    </div>
+    <svg class="radar" viewBox="0 0 400 400" role="img" aria-label="Escudo de seguridad A1SS">
+      <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#FECC57" stop-opacity="0"/><stop offset="1" stop-color="#FECC57" stop-opacity=".5"/></linearGradient></defs>
+      <g fill="none" stroke="#F3F5F7" stroke-opacity=".22">
+        <circle cx="200" cy="200" r="190"/><circle cx="200" cy="200" r="140"/><circle cx="200" cy="200" r="90"/>
+        <path d="M200 10V390M10 200H390" stroke-dasharray="3 7"/>
+      </g>
+      <path class="sweep" d="M200 200 390 200A190 190 0 0 0 333 66Z" fill="url(#g)"/>
+      <circle cx="200" cy="200" r="86" fill="#10253A" stroke="#FECC57" stroke-opacity=".5"/>
+      <image href="img/logo.png" x="150" y="143" width="100" height="113"/>
+      <circle cx="333" cy="66" r="6" fill="#FECC57"/><circle cx="70" cy="290" r="5" fill="#F3F5F7" fill-opacity=".6"/>
+    </svg>
+  </div>
+</section>
+
+<section class="pillars" aria-label="Pilares">
+  <div class="wrap"><div class="grid">
+    <div class="pillar"><svg viewBox="0 0 24 24"><path d="M12 3 20 6v6c0 4.500-3.300 7.800-8 9-4.700-1.200-8-4.500-8-9V6z"/><path d="m9 12 2 2 4-4"/></svg><h3>Seguridad integral</h3><p>Protección personalizada a cada tipo de necesidad.</p></div>
+    <div class="pillar"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></svg><h3>Tecnología avanzada</h3><p>Herramientas digitales para máxima eficiencia.</p></div>
+    <div class="pillar"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="5"/><path d="m8.500 13.500-1.500 8 5-2.500 5 2.500-1.500-8"/></svg><h3>Personal certificado</h3><p>Especialistas formados en altos estándares de calidad.</p></div>
+    <div class="pillar"><svg viewBox="0 0 24 24"><path d="M12 21s-8-5.200-8-11a4.500 4.500 0 0 1 8-2.800A4.500 4.500 0 0 1 20 10c0 5.800-8 11-8 11z"/></svg><h3>Compromiso total</h3><p>Garantía, responsabilidad y excelencia constante.</p></div>
+  </div></div>
+</section>
+
+<section class="gallery" aria-label="Galería">
+  <div class="wrap">
+    <div class="car" id="car" role="region" aria-roledescription="carrusel" aria-label="Galería de servicios">
+      <div class="track" id="track">
+        <figure class="slide" style="margin:0"><img src="img/vip.jpg" alt="Equipo de seguridad A1SS frente a un edificio corporativo" width="1400" height="571"><figcaption class="cap"><h3>Protección VIP</h3><p>Seguridad ejecutiva discreta y altamente entrenada para personalidades y directivos.</p></figcaption></figure>
+        <figure class="slide" style="margin:0"><img src="img/instalaciones.jpg" alt="Oficiales A1SS uniformados en la entrada de un edificio" width="1400" height="580" loading="lazy"><figcaption class="cap"><h3>Seguridad para instalaciones</h3><p>Protección física y lógica de vanguardia para infraestructuras corporativas y residenciales.</p></figcaption></figure>
+        <figure class="slide" style="margin:0"><img src="img/carga.jpg" alt="Camión de carga en carretera al atardecer" width="1125" height="580" loading="lazy"><figcaption class="cap"><h3>Protección de carga</h3><p>Custodia especializada y rastreo de mercancías críticas durante su traslado logístico.</p></figcaption></figure>
+        <figure class="slide" style="margin:0"><img src="img/video.jpg" alt="Cámaras de videovigilancia y centro de monitoreo" width="1400" height="933" loading="lazy"><figcaption class="cap"><h3>Sistemas de videovigilancia</h3><p>Inteligencia artificial y analítica de video aplicada a la seguridad electrónica.</p></figcaption></figure>
+        <figure class="slide" style="margin:0"><img src="img/rutas.jpg" alt="Operador monitoreando múltiples cámaras" width="1202" height="763" loading="lazy"><figcaption class="cap"><h3>Monitoreo de rutas</h3><p>Sistemas satelitales avanzados para el control y patrullaje preventivo de trayectos.</p></figcaption></figure>
+      </div>
+      <button class="arrow prev" id="prev" aria-label="Foto anterior"><svg viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></svg></button>
+      <button class="arrow next" id="next" aria-label="Foto siguiente"><svg viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button>
+      <div class="dots" id="dots"></div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="nosotros">
+  <div class="wrap">
+    <div>
+      <h2>Identidad corporativa</h2>
+      <blockquote class="quote">“La seguridad no es una promesa, es una forma de vida.”<cite>— A1 Security Solutions</cite></blockquote>
+    </div>
+    <div class="mv">
+      <article class="rv"><h3>Misión</h3><p>Brindar soluciones integrales de seguridad que permitan a nuestros clientes desarrollar sus actividades con tranquilidad, confianza y respaldo profesional de primer nivel.</p></article>
+      <article class="rv"><h3>Visión</h3><p>Ser la empresa líder en servicios de seguridad integral, reconocida por la innovación constante, la excelencia operativa y el desarrollo de nuestro talento humano.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="servicios">
+  <div class="wrap">
+    <div class="head"><h2>Nuestros servicios especializados</h2><p>Soluciones tecnológicas avanzadas diseñadas para tu tranquilidad total.</p></div>
+    <div class="sgrid">
+      <article class="svc rv"><div class="ph"><div class="clip"><img src="img/instalaciones-sm.jpg" alt="Seguridad para instalaciones" loading="lazy"></div><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 21V5l8-3 8 3v16M2 21h20"/><path d="M9 8h2M13 8h2M9 12h2M13 12h2M10 21v-5h4v5"/></svg></div></div><div class="body"><h3>Seguridad para instalaciones</h3><p>Protección física y lógica de vanguardia para infraestructuras corporativas y residenciales.</p></div></article>
+      <article class="svc rv"><div class="ph"><div class="clip"><img src="img/carga-sm.jpg" alt="Protección de carga" loading="lazy"></div><div class="ico"><svg viewBox="0 0 24 24"><path d="M2 6h12v10H2zM14 9h4l4 4v3h-8"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg></div></div><div class="body"><h3>Protección de carga</h3><p>Custodia especializada y rastreo de mercancías críticas durante su traslado logístico.</p></div></article>
+      <article class="svc rv"><div class="ph"><div class="clip"><img src="img/rutas-sm.jpg" alt="Monitoreo de rutas" loading="lazy"></div><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 22s7-6.200 7-12a7 7 0 0 0-14 0c0 5.800 7 12 7 12z"/><circle cx="12" cy="10" r="2.500"/></svg></div></div><div class="body"><h3>Monitoreo de rutas</h3><p>Sistemas satelitales avanzados para el control y patrullaje preventivo de trayectos.</p></div></article>
+      <article class="svc rv"><div class="ph"><div class="clip"><img src="img/vip-sm.jpg" alt="Protección VIP" loading="lazy"></div><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M4 21v-2a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v2M12 14v7"/></svg></div></div><div class="body"><h3>Protección VIP</h3><p>Seguridad ejecutiva discreta y altamente entrenada para personalidades y directivos.</p></div></article>
+      <article class="svc rv"><div class="ph"><div class="clip"><img src="img/video-sm.jpg" alt="Sistemas de videovigilancia" loading="lazy"></div><div class="ico"><svg viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3.500"/></svg></div></div><div class="body"><h3>Sistemas de videovigilancia</h3><p>Inteligencia artificial y analítica de video aplicada a la seguridad electrónica.</p></div></article>
+      <article class="svc rv"><div class="ph"><div class="clip"><img src="img/poligrafia-sm.jpg" alt="Evaluaciones poligráficas" loading="lazy"></div><div class="ico"><svg viewBox="0 0 24 24"><path d="M2 12h5l2-6 4 12 2-6h7"/></svg></div></div><div class="body"><h3>Evaluaciones poligráficas</h3><p>Pruebas de confiabilidad y control de confianza con tecnología de precisión.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="quote-sec" id="cotizacion">
+  <div class="wrap">
+    <div>
+      <h2>Solicita una cotización</h2>
+      <p style="color:var(--muted);margin:14px 0 0;font-size:19px">Canal directo con nuestro equipo de seguridad.</p>
+      <ul class="contact-list">
+        <li><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span><b>Contacto directo</b>(504) 8994-9049 / 9510-0151</span></li>
+        <li><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span><b>Correo</b><a href="mailto:mercadeo@a1securitysolutionshn.com">mercadeo@a1securitysolutionshn.com</a></span></li>
+        <li><svg viewBox="0 0 24 24"><path d="M12 22s7-6.200 7-12a7 7 0 0 0-14 0c0 5.800 7 12 7 12z"/><circle cx="12" cy="10" r="2.500"/></svg><span><b>Ubicación principal</b>Col. Zerón, 9 calle, entre 19 y 20 avenida, local No. 3, San Pedro Sula, Cortés.</span></li>
+      </ul>
+    </div>
+    <div>
+      <form id="f" novalidate>
+        <label>Nombre completo<input name="nombre" autocomplete="name" required></label>
+        <div class="row">
+          <label>Correo electrónico<input name="correo" type="email" autocomplete="email" required></label>
+          <label>Teléfono de contacto<input name="tel" type="tel" autocomplete="tel" required></label>
+        </div>
+        <label>Servicio requerido
+          <select name="servicio" required>
+            <option value="">Selecciona un servicio</option>
+            <option>Seguridad para Instalaciones</option>
+            <option>Custodia y Protección de Carga</option>
+            <option>Patrullaje y Monitoreo de Rutas</option>
+            <option>Seguridad Ejecutiva y VIP</option>
+            <option>Seguridad Electrónica y CCTV</option>
+            <option>Evaluaciones Poligráficas</option>
+            <option>Estudios Socioeconómicos</option>
+          </select>
+        </label>
+        <label>Detalles del requerimiento<textarea name="detalle"></textarea></label>
+        <div class="hp" aria-hidden="true"><label>No llenar<input name="website" tabindex="-1" autocomplete="off"></label></div>
+        <p class="err" id="err" role="alert" hidden></p>
+        <button class="btn" id="send" type="submit">Enviar solicitud</button>
+      </form>
+      <div class="done" id="ok" hidden role="status">
+        <div class="check"><svg viewBox="0 0 24 24"><path d="m5 12 5 5 9-10"/></svg></div>
+        <h3>¡Solicitud recibida con éxito!</h3>
+        <p>Nuestro equipo de seguridad analítica ha procesado tu requerimiento. Un especialista se pondrá en contacto contigo a la brevedad.</p>
+        <button class="btn ghost" type="button" id="again">Enviar otra consulta</button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a class="brand" href="#inicio"><img src="img/logo.png" alt="" width="39" height="44"><span>A1SS<small>Security Solutions</small></span></a>
+        <p style="margin-top:14px">Profesionalismo • Tecnología • Confianza</p>
+        <div class="social">
+          <a href="https://wa.me/50489949049" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M3 21l1.500-4.500A8.500 8.500 0 1 1 8 19.500z"/><path d="M9 9c0 3 3 6 6 6l1-1.500-2-1-1 .8c-1-.4-2-1.400-2.400-2.400l.8-1-1-2z"/></svg></a>
+          <a href="https://www.facebook.com/share/1GwqEd9PRZ/" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg></a>
+          <a href="https://www.instagram.com/a1_securitysolutions?utm_source=qr&amp;igsh=MTJpcGRoaTBleWJzaQ==" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r=".8"/></svg></a>
+          <a href="https://linkedin.com" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v6M8 7.500v.1M12 17v-6m0 3a3 3 0 0 1 6 0v3"/></svg></a>
+        </div>
+      </div>
+      <div><h4>Contacto directo</h4><p>(504) 8994-9049 / 9510-0151</p><a href="mailto:mercadeo@a1securitysolutionshn.com">mercadeo@a1securitysolutionshn.com</a></div>
+      <div><h4>Ubicación principal</h4><p>Col. Zerón, 9 calle, entre 19 y 20 avenida, local No. 3, San Pedro Sula, Cortés.</p></div>
+    </div>
+    <div class="copy">© 2026 A1 Security Solutions. All rights reserved.</div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/50489949049" aria-label="Escribir por WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.600 15L2 22l5.200-1.400A10 10 0 1 0 12 2zm5.200 14c-.2.600-1.300 1.200-1.800 1.200-.5.100-1 .2-3.200-.7-2.700-1.100-4.400-3.800-4.500-4-.1-.2-1.100-1.400-1.100-2.700 0-1.300.7-1.900.9-2.200.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.9 2.100c.1.200.1.400 0 .5l-.4.600-.3.400c-.1.100-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.100.5.100.7-.1l1-1.200c.2-.3.400-.2.700-.1l2 .9c.3.200.5.200.6.300.1.200.1.800-.1 1.400z"/></svg></a>
+
+<script>
+/* Modo claro / oscuro */
+(function(){
+  var root=document.documentElement,btn=document.getElementById('theme');
+  function isDark(){var t=root.getAttribute('data-theme');return t?t==='dark':matchMedia('(prefers-color-scheme:dark)').matches}
+  btn.addEventListener('click',function(){
+    var next=isDark()?'light':'dark';root.setAttribute('data-theme',next);
+    try{localStorage.setItem('a1ss-theme',next)}catch(e){}
+  });
+})();
+
+/* Carrusel */
+(function(){
+  var car=document.getElementById('car'),track=document.getElementById('track'),dotsEl=document.getElementById('dots');
+  var n=track.children.length,i=0,timer,reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+  for(var k=0;k<n;k++){(function(k){var b=document.createElement('button');b.setAttribute('aria-label','Ir a la foto '+(k+1));b.onclick=function(){go(k,true)};dotsEl.appendChild(b)})(k)}
+  function go(x,user){i=(x+n)%n;track.style.transform='translateX(-'+i*100+'%)';
+    [].forEach.call(dotsEl.children,function(d,j){d.setAttribute('aria-current',j===i)});if(user)restart()}
+  function restart(){clearInterval(timer);if(!reduce)timer=setInterval(function(){go(i+1)},5500)}
+  document.getElementById('prev').onclick=function(){go(i-1,true)};
+  document.getElementById('next').onclick=function(){go(i+1,true)};
+  car.addEventListener('mouseenter',function(){clearInterval(timer)});car.addEventListener('mouseleave',restart);
+  car.addEventListener('keydown',function(e){if(e.key==='ArrowLeft')go(i-1,true);if(e.key==='ArrowRight')go(i+1,true)});
+  var sx=null;car.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+  car.addEventListener('touchend',function(e){if(sx===null)return;var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>40)go(i+(dx<0?1:-1),true);sx=null});
+  go(0);restart();
+})();
+
+/* Animación de entrada (tarjetas) */
+(function(){
+  var els=document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return}
+  var io=new IntersectionObserver(function(es){es.forEach(function(en){
+    if(!en.isIntersecting)return;var el=en.target,sib=[].indexOf.call(el.parentNode.children,el);
+    el.style.transitionDelay=(sib%3)*120+'ms';el.classList.add('in');
+    setTimeout(function(){el.style.transitionDelay='0ms'},1000);io.unobserve(el)})},{threshold:.15});
+  els.forEach(function(e){io.observe(e)});
+})();
+
+/* Formulario: función de Netlify con respaldo FormSubmit */
+(function(){
+  var f=document.getElementById('f'),ok=document.getElementById('ok'),err=document.getElementById('err'),btn=document.getElementById('send');
+  var TO='mercadeo@a1securitysolutionshn.com',CC='juanaferraro8@gmail.com,juana_ferraro@yahoo.com';
+  function post(url,data){return fetch(url,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)})}
+  f.addEventListener('submit',function(e){
+    e.preventDefault();err.hidden=true;
+    if(!f.reportValidity())return;
+    var d={};new FormData(f).forEach(function(v,k){d[k]=v});
+    btn.disabled=true;btn.textContent='Enviando…';
+    post('/.netlify/functions/cotizacion',d).then(function(r){
+      if(r.ok)return true;
+      return post('https://formsubmit.co/ajax/'+TO,{_cc:CC,_subject:'Nueva cotización: '+d.servicio+' – '+d.nombre,_template:'table',_captcha:'false',
+        Nombre:d.nombre,Correo:d.correo,Teléfono:d.tel,Servicio:d.servicio,Detalles:d.detalle||'—',_replyto:d.correo}).then(function(r2){return r2.ok})
+    }).catch(function(){return false}).then(function(good){
+      btn.disabled=false;btn.textContent='Enviar solicitud';
+      if(good){f.hidden=true;ok.hidden=false;ok.scrollIntoView({block:'center',behavior:'smooth'})}
+      else{err.textContent='No pudimos enviar tu solicitud. Inténtalo de nuevo o escríbenos por WhatsApp al (504) 8994-9049.';err.hidden=false}
+    });
+  });
+  document.getElementById('again').addEventListener('click',function(){f.reset();ok.hidden=true;f.hidden=false;f.querySelector('input').focus()});
+})();
+</script>
+</body>
+</html>
